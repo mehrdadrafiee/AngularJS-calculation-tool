@@ -6,8 +6,8 @@
 
   app.controller('CalculatorController', ['$scope', function($scope){
 
-    alert('success!');
-
+    $scope.lumen_options = [375, 600, 900, 1125, 1600];
+    $scope.current_lumens = 600;
 
 
   }]);
