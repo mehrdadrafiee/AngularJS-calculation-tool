@@ -63,3 +63,23 @@
   font-size: 1.5em;
   font-weight: 700;
 }
+
+#myCalculator main p + p {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+
+#myCalculator main p::after {
+  content: 'w';
+}
+
+#myCalculator main p + p::before {
+  content: '$';
+}
+
+#myCalculator main p + p::after {
+  content: 'per year';
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 4px;
+}
