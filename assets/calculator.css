@@ -174,7 +174,7 @@
 
   #myCalculator main p + p::after {
     display: block;
-    margin-top: -10px;
+    margin-top: -3px;
     color: #fff;
   }
 
