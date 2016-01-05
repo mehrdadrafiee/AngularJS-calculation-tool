@@ -167,4 +167,38 @@
   #myCalculator main p {
     font-size: 1.1em;
   }
+
+  #myCalculator main p + p {
+    font-size: 1em;
+  }
+
+  #myCalculator main p + p::after {
+    display: block;
+    margin-top: -10px;
+    color: #fff;
+  }
+
+  /* style the fomr section for smaller screens */
+  #myCalculator form h4 {
+    font-size: 1.1em;
+    margin: 0;
+  }
+
+  #myCalculator {
+    font-size: 0.8em;
+    line-height: 14px;
+  }
+
+  #myCalculator form br {
+    display: inline;
+  }
+
+  #myCalculator form input[type=number] {
+    width: 30px;
+    font-size: 0.8em;
+  }
+
+  #myCalculator form select {
+    font-size: 0.8em;
+  }
 }
