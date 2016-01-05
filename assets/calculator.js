@@ -6,7 +6,7 @@
 
   app.controller('CalculatorController', ['$scope', function($scope){
 
-    
+    alert('success!');
 
 
 
